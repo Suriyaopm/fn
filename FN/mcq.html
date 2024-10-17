@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Test</title>
+    <style>
+        body {
+            background-color: #f2bbb2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .test-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .option {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .option:hover {
+            background-color: #0056b3;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #d0968d;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color:  #dc422a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="test-container">
+        <h1>MCQ Test</h1>
+        
+        <div class="question">
+            <p><strong>Question 1:</strong> What does HTML stand for?</p>
+            <ul class="options">
+                <li class="option">Hyper Text Markup Language</li>
+                <li class="option">Hyperlinks and Text Markup Language</li>
+                <li class="option">High-level Text Markup Language</li>
+                <li class="option">None of the above</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 2:</strong> Which tag is used to define an unordered list?</p>
+            <ul class="options">
+                <li class="option">&lt;ul&gt;</li>
+                <li class="option">&lt;ol&gt;</li>
+                <li class="option">&lt;li&gt;</li>
+                <li class="option">&lt;list&gt;</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 3:</strong> Which of the following is a CSS framework?</p>
+            <ul class="options">
+                <li class="option">Bootstrap</li>
+                <li class="option">Laravel</li>
+                <li class="option">Django</li>
+                <li class="option">Ruby on Rails</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 4:</strong> What does API stand for?</p>
+            <ul class="options">
+                <li class="option">Application Programming Interface</li>
+                <li class="option">Application Programming Integration</li>
+                <li class="option">Applied Programming Interface</li>
+                <li class="option">None of the above</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 5:</strong> Which HTML attribute is used to define inline styles?</p>
+            <ul class="options">
+                <li class="option">class</li>
+                <li class="option">style</li>
+                <li class="option">font</li>
+                <li class="option">id</li>
+            </ul>
+        </div>
+        
+        <button onclick="window.location.href='dashboard.html'" class="submit-btn">Submit Answers</button>
+    </div>
+</body>
+</html>

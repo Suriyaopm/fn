@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #f2bbb2;
+            margin: 0;
+            padding: 20px;
+        }
+        h2{
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:  #f2bbb2;
+            padding: 15px 20px;
+            border-radius: 5px;
+        }
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .logout-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .logout-btn:hover {
+            background-color: #c82333;
+        }
+        .task-list {
+            margin-top: 30px;
+            background-color:  #f2bbb2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .task-button {
+            display: block;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            width:50%;
+        }
+        .task-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-header">
+        <div class="company-name">FNAXION</div>
+        <button class="logout-btn" id="logoutButton">Logout</button>
+    </div>
+
+    <div class="task-list">
+        <center>
+            <h2>Assessment Tasks</h2>
+            <a href="coding.html" class="task-button">Coding Challenge</a>
+            <a href="project.html" class="task-button">Project Quiz</a>
+            <a href="port.html" class="task-button">Portfolio Assignment</a>
+            <a href="mcq.html" class="task-button">MCQ Test</a>
+        </center>
+        
+    </div>
+
+    <script>
+        document.getElementById("logoutButton").addEventListener("click", function(event) {
+          event.preventDefault();
+
+        var confirmation = confirm("Are you sure you want to log out?");
+
+        if (confirmation) {
+          window.location.href = 'index.html';
+        }
+        });
+
+
+    </script>
+
+</body>
+</html>

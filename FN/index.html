@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!--BootStrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--CSS-styles-->
+    <link rel="stylesheet" href="static/styles.css" />
+    <!--Font-Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!--BootStrap-Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">FNAXION</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item1">
+                <a class="nav-link1" href="login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Designing Financial Solutions for <br>Freedom</h1>
+            <button onclick="window.location.href='register.html'" type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-google-play"></i> Get Started
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img 
+              class="title-image"
+              src="images/ai.jpeg"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-circle-check fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>Easily Contact our professional to clarify the Technical Doubt</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-bullseye fa-4x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the plans, the greatest plans.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-heart fa-4x"></i>
+          <h3>Guaranteed to work</h3>
+          <p>This will defintely make the difference in your Business.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              Thier innovative financial services have helped me take aria-control
+              of my finance and work.
+            </h2>
+            <img style="height: 75px; width:80px;"
+              class="testimonial-image"
+              src="images/guy.jpeg"
+              alt="dog-profile"
+            />
+            <em>Martin, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              I've had an excellent experience with FN Money. The team is highly knowledgable
+              and professional.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Mary, Paris</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-img" src="images/bizinsider.png" alt="tc-logo" />
+      <img class="press-img" src="images/mashable.png" alt="tnw-logo" />
+      <img class="press-img" src="images/TechCrunch.png" alt="biz-insider-logo"/>
+      <img class="press-img" src="images/tnw.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every Business Needs</h2>
+      <p>Simple and affordable price plans for your business.</p>
+      <div class="row">
+        <div class="pricing col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Gold</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Service Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Platinum</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Limited Services</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="w-100 btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Diamond</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Services</p>
+              <p>Unlimited Messages</p>
+              <button type="button" class="w-100 btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h1 class="cta-heading">Find the True Impact of Your Business<br> Life Today.</h1>
+      <button type="button" class="download-button btn btn-dark btn-lg"><i class="fa-brands fa-google-play"></i>Get Started</button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-solid fa-envelope"></i>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Quiz</title>
+    <style>
+        body {
+            background-color: #f2bbb2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .quiz-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .option {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .option:hover {
+            background-color: #0056b3;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #d0968d;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #dc422a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Project Quiz</h1>
+        
+        <div class="question">
+            <p><strong>Question 1:</strong> What is the primary programming language used for web development?</p>
+            <ul class="options">
+                <li class="option">Python</li>
+                <li class="option">JavaScript</li>
+                <li class="option">C++</li>
+                <li class="option">Java</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 2:</strong> Which HTML element is used to define an internal style sheet?</p>
+            <ul class="options">
+                <li class="option">&lt;style&gt;</li>
+                <li class="option">&lt;css&gt;</li>
+                <li class="option">&lt;script&gt;</li>
+                <li class="option">&lt;link&gt;</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 3:</strong> Which CSS property controls the text size?</p>
+            <ul class="options">
+                <li class="option">font-size</li>
+                <li class="option">text-size</li>
+                <li class="option">font-style</li>
+                <li class="option">text-style</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 4:</strong> What does JSON stand for?</p>
+            <ul class="options">
+                <li class="option">JavaScript Object Notation</li>
+                <li class="option">Java Source Object Notation</li>
+                <li class="option">JavaScript Online Notation</li>
+                <li class="option">None of the above</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 5:</strong> Which of the following is a JavaScript framework?</p>
+            <ul class="options">
+                <li class="option">Django</li>
+                <li class="option">Ruby on Rails</li>
+                <li class="option">React</li>
+                <li class="option">Laravel</li>
+            </ul>
+        </div>
+        
+        <button onclick="window.location.href='dashboard.html'" class="submit-btn">Submit Answers</button>
+    </div>
+
+</body>
+</html>

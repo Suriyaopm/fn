@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Assignment</title>
+    <style>
+        body {
+            background-color: #f2bbb2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .assignment-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .file-input {
+            display: block;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #d0968d;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #dc422a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="assignment-container">
+        <h1>Portfolio Assignment</h1>
+        <p>Welcome to your portfolio assignment! Please complete the following tasks:</p>
+        <ul>
+            <li>Create a personal website showcasing your skills and projects.</li>
+            <li>Include a resume and a brief introduction about yourself.</li>
+            <li>Provide links to your GitHub or other relevant profiles.</li>
+        </ul>
+        <p>Once you are done, please upload your portfolio files below:</p>
+        
+        <input type="file" class="file-input" accept=".zip,.pdf,.html" multiple>
+        
+        <button onclick="window.location.href='dashboard.html'" class="submit-btn">Submit Portfolio</button>
+    </div>
+
+</body>
+</html>
